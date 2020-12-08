@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD2BE353257FEA1D00E1D231 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE352257FEA1D00E1D231 /* Tests_iOS.swift */; };
+		CD2BE35E257FEA1D00E1D231 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE35D257FEA1D00E1D231 /* Tests_macOS.swift */; };
+		CD2BE360257FEA1D00E1D231 /* AppfroschsShortcutCheatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE337257FEA1A00E1D231 /* AppfroschsShortcutCheatAppApp.swift */; };
+		CD2BE361257FEA1D00E1D231 /* AppfroschsShortcutCheatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE337257FEA1A00E1D231 /* AppfroschsShortcutCheatAppApp.swift */; };
+		CD2BE362257FEA1D00E1D231 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE338257FEA1A00E1D231 /* ContentView.swift */; };
+		CD2BE363257FEA1D00E1D231 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE338257FEA1A00E1D231 /* ContentView.swift */; };
+		CD2BE364257FEA1D00E1D231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2BE339257FEA1D00E1D231 /* Assets.xcassets */; };
+		CD2BE365257FEA1D00E1D231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2BE339257FEA1D00E1D231 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD2BE34F257FEA1D00E1D231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD2BE332257FEA1A00E1D231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD2BE33D257FEA1D00E1D231;
+			remoteInfo = "AppfroschsShortcutCheatApp (iOS)";
+		};
+		CD2BE35A257FEA1D00E1D231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD2BE332257FEA1A00E1D231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD2BE345257FEA1D00E1D231;
+			remoteInfo = "AppfroschsShortcutCheatApp (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD2BE337257FEA1A00E1D231 /* AppfroschsShortcutCheatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppfroschsShortcutCheatAppApp.swift; sourceTree = "<group>"; };
+		CD2BE338257FEA1A00E1D231 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD2BE339257FEA1D00E1D231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD2BE33E257FEA1D00E1D231 /* AppfroschsShortcutCheatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppfroschsShortcutCheatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2BE341257FEA1D00E1D231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2BE346257FEA1D00E1D231 /* AppfroschsShortcutCheatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppfroschsShortcutCheatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2BE348257FEA1D00E1D231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2BE349257FEA1D00E1D231 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		CD2BE34E257FEA1D00E1D231 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2BE352257FEA1D00E1D231 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		CD2BE354257FEA1D00E1D231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2BE359257FEA1D00E1D231 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2BE35D257FEA1D00E1D231 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		CD2BE35F257FEA1D00E1D231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD2BE33B257FEA1D00E1D231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2BE343257FEA1D00E1D231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2BE34B257FEA1D00E1D231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2BE356257FEA1D00E1D231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD2BE331257FEA1A00E1D231 = {
+			isa = PBXGroup;
+			children = (
+				CD2BE336257FEA1A00E1D231 /* Shared */,
+				CD2BE340257FEA1D00E1D231 /* iOS */,
+				CD2BE347257FEA1D00E1D231 /* macOS */,
+				CD2BE351257FEA1D00E1D231 /* Tests iOS */,
+				CD2BE35C257FEA1D00E1D231 /* Tests macOS */,
+				CD2BE33F257FEA1D00E1D231 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2BE336257FEA1A00E1D231 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CD2BE337257FEA1A00E1D231 /* AppfroschsShortcutCheatAppApp.swift */,
+				CD2BE338257FEA1A00E1D231 /* ContentView.swift */,
+				CD2BE339257FEA1D00E1D231 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CD2BE33F257FEA1D00E1D231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2BE33E257FEA1D00E1D231 /* AppfroschsShortcutCheatApp.app */,
+				CD2BE346257FEA1D00E1D231 /* AppfroschsShortcutCheatApp.app */,
+				CD2BE34E257FEA1D00E1D231 /* Tests iOS.xctest */,
+				CD2BE359257FEA1D00E1D231 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD2BE340257FEA1D00E1D231 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CD2BE341257FEA1D00E1D231 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		CD2BE347257FEA1D00E1D231 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CD2BE348257FEA1D00E1D231 /* Info.plist */,
+				CD2BE349257FEA1D00E1D231 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		CD2BE351257FEA1D00E1D231 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CD2BE352257FEA1D00E1D231 /* Tests_iOS.swift */,
+				CD2BE354257FEA1D00E1D231 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		CD2BE35C257FEA1D00E1D231 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CD2BE35D257FEA1D00E1D231 /* Tests_macOS.swift */,
+				CD2BE35F257FEA1D00E1D231 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD2BE33D257FEA1D00E1D231 /* AppfroschsShortcutCheatApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2BE368257FEA1D00E1D231 /* Build configuration list for PBXNativeTarget "AppfroschsShortcutCheatApp (iOS)" */;
+			buildPhases = (
+				CD2BE33A257FEA1D00E1D231 /* Sources */,
+				CD2BE33B257FEA1D00E1D231 /* Frameworks */,
+				CD2BE33C257FEA1D00E1D231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppfroschsShortcutCheatApp (iOS)";
+			productName = "AppfroschsShortcutCheatApp (iOS)";
+			productReference = CD2BE33E257FEA1D00E1D231 /* AppfroschsShortcutCheatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD2BE345257FEA1D00E1D231 /* AppfroschsShortcutCheatApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2BE36B257FEA1D00E1D231 /* Build configuration list for PBXNativeTarget "AppfroschsShortcutCheatApp (macOS)" */;
+			buildPhases = (
+				CD2BE342257FEA1D00E1D231 /* Sources */,
+				CD2BE343257FEA1D00E1D231 /* Frameworks */,
+				CD2BE344257FEA1D00E1D231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppfroschsShortcutCheatApp (macOS)";
+			productName = "AppfroschsShortcutCheatApp (macOS)";
+			productReference = CD2BE346257FEA1D00E1D231 /* AppfroschsShortcutCheatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD2BE34D257FEA1D00E1D231 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2BE36E257FEA1D00E1D231 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				CD2BE34A257FEA1D00E1D231 /* Sources */,
+				CD2BE34B257FEA1D00E1D231 /* Frameworks */,
+				CD2BE34C257FEA1D00E1D231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD2BE350257FEA1D00E1D231 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = CD2BE34E257FEA1D00E1D231 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD2BE358257FEA1D00E1D231 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2BE371257FEA1D00E1D231 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				CD2BE355257FEA1D00E1D231 /* Sources */,
+				CD2BE356257FEA1D00E1D231 /* Frameworks */,
+				CD2BE357257FEA1D00E1D231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD2BE35B257FEA1D00E1D231 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = CD2BE359257FEA1D00E1D231 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD2BE332257FEA1A00E1D231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CD2BE33D257FEA1D00E1D231 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					CD2BE345257FEA1D00E1D231 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					CD2BE34D257FEA1D00E1D231 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CD2BE33D257FEA1D00E1D231;
+					};
+					CD2BE358257FEA1D00E1D231 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CD2BE345257FEA1D00E1D231;
+					};
+				};
+			};
+			buildConfigurationList = CD2BE335257FEA1A00E1D231 /* Build configuration list for PBXProject "AppfroschsShortcutCheatApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD2BE331257FEA1A00E1D231;
+			productRefGroup = CD2BE33F257FEA1D00E1D231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD2BE33D257FEA1D00E1D231 /* AppfroschsShortcutCheatApp (iOS) */,
+				CD2BE345257FEA1D00E1D231 /* AppfroschsShortcutCheatApp (macOS) */,
+				CD2BE34D257FEA1D00E1D231 /* Tests iOS */,
+				CD2BE358257FEA1D00E1D231 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD2BE33C257FEA1D00E1D231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2BE364257FEA1D00E1D231 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2BE344257FEA1D00E1D231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2BE365257FEA1D00E1D231 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2BE34C257FEA1D00E1D231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2BE357257FEA1D00E1D231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD2BE33A257FEA1D00E1D231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2BE362257FEA1D00E1D231 /* ContentView.swift in Sources */,
+				CD2BE360257FEA1D00E1D231 /* AppfroschsShortcutCheatAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2BE342257FEA1D00E1D231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2BE363257FEA1D00E1D231 /* ContentView.swift in Sources */,
+				CD2BE361257FEA1D00E1D231 /* AppfroschsShortcutCheatAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2BE34A257FEA1D00E1D231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2BE353257FEA1D00E1D231 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2BE355257FEA1D00E1D231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2BE35E257FEA1D00E1D231 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD2BE350257FEA1D00E1D231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD2BE33D257FEA1D00E1D231 /* AppfroschsShortcutCheatApp (iOS) */;
+			targetProxy = CD2BE34F257FEA1D00E1D231 /* PBXContainerItemProxy */;
+		};
+		CD2BE35B257FEA1D00E1D231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD2BE345257FEA1D00E1D231 /* AppfroschsShortcutCheatApp (macOS) */;
+			targetProxy = CD2BE35A257FEA1D00E1D231 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD2BE366257FEA1D00E1D231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD2BE367257FEA1D00E1D231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CD2BE369257FEA1D00E1D231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4E7YEW565;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.appfros.AppfroschsShortcutCheatApp;
+				PRODUCT_NAME = AppfroschsShortcutCheatApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD2BE36A257FEA1D00E1D231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4E7YEW565;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.appfros.AppfroschsShortcutCheatApp;
+				PRODUCT_NAME = AppfroschsShortcutCheatApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD2BE36C257FEA1D00E1D231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T4E7YEW565;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.appfros.AppfroschsShortcutCheatApp;
+				PRODUCT_NAME = AppfroschsShortcutCheatApp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD2BE36D257FEA1D00E1D231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T4E7YEW565;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.appfros.AppfroschsShortcutCheatApp;
+				PRODUCT_NAME = AppfroschsShortcutCheatApp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CD2BE36F257FEA1D00E1D231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4E7YEW565;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.appfros.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AppfroschsShortcutCheatApp (iOS)";
+			};
+			name = Debug;
+		};
+		CD2BE370257FEA1D00E1D231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4E7YEW565;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.appfros.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AppfroschsShortcutCheatApp (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD2BE372257FEA1D00E1D231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T4E7YEW565;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.appfros.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AppfroschsShortcutCheatApp (macOS)";
+			};
+			name = Debug;
+		};
+		CD2BE373257FEA1D00E1D231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T4E7YEW565;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.appfros.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AppfroschsShortcutCheatApp (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD2BE335257FEA1A00E1D231 /* Build configuration list for PBXProject "AppfroschsShortcutCheatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2BE366257FEA1D00E1D231 /* Debug */,
+				CD2BE367257FEA1D00E1D231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2BE368257FEA1D00E1D231 /* Build configuration list for PBXNativeTarget "AppfroschsShortcutCheatApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2BE369257FEA1D00E1D231 /* Debug */,
+				CD2BE36A257FEA1D00E1D231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2BE36B257FEA1D00E1D231 /* Build configuration list for PBXNativeTarget "AppfroschsShortcutCheatApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2BE36C257FEA1D00E1D231 /* Debug */,
+				CD2BE36D257FEA1D00E1D231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2BE36E257FEA1D00E1D231 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2BE36F257FEA1D00E1D231 /* Debug */,
+				CD2BE370257FEA1D00E1D231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2BE371257FEA1D00E1D231 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2BE372257FEA1D00E1D231 /* Debug */,
+				CD2BE373257FEA1D00E1D231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD2BE332257FEA1A00E1D231 /* Project object */;
+}

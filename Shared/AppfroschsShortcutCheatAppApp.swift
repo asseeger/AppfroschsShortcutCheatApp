@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct AppfroschsShortcutCheatAppApp: App {
+    
+    @StateObject var viewModel = ViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainPanelPlatformView(viewModel: viewModel)
         }
     }
 }

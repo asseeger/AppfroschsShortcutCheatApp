@@ -1,6 +1,7 @@
 # Appfrosch's Shortcut Cheat App
 
 ![First "Design"](./assets/firstDesign.png)
+The first "design"…
 
 ## Elevator Pitch
 Appfrosch's Shortcut Cheat App is helping all the keyboard shortcut aficionados (like myself) out there by giving them a tool to store their frequently (or sometime not so frequently…) used shortcuts.
